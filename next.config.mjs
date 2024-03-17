@@ -47,6 +47,7 @@ const nextConfig = {
         protocol: 'https',
       },
     ],
+    domains: ["imgcdn.qqshsh.com"],
     unoptimized: !isProd,
   },
   output: buildWithDocker ? 'standalone' : undefined,
