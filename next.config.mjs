@@ -37,6 +37,9 @@ const nextConfig = {
     ],
     webVitalsAttribution: ['CLS', 'LCP'],
   },
+  images: {
+    domains: ["imgcdn.qqshsh.com"],
+  },
   output: buildWithDocker ? 'standalone' : undefined,
 
   rewrites: async () => [
